@@ -1,0 +1,5 @@
+a=float(input())
+b=float(input())
+d= (a*3.5)+(b*7.5)
+e= d/(11.00)
+print("MEDIA = {:.5f}".format(e))

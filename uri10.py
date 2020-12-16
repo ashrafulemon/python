@@ -1,0 +1,11 @@
+a,b,e=input( ).split()
+c,d,f=input( ).split()
+a=int(a)
+b=int(b)
+e=float(e)
+c=int(c)
+d=int(d)
+f=float(f)
+t=float((b*e)+(d*f))
+print("VALOR A PAGAR: R$ {:.2f}".format(t))
+
